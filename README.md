@@ -39,3 +39,11 @@ Once the application is running, you will see a welcome message and prompts to e
 * **Exact Match:** Enter the full Italian term you are looking for (e.g., `Legge`).
 * **Partial Match:** Enter the beginning of the term followed by an asterisk and a space (e.g., `Violenza *`).
 * **Exit:** Type `exit` to close the application.
+
+## Contributing
+
+Currently, contributions are not actively sought for this specific version. However, suggestions for improvements or bug reports are welcome via GitHub Issues.
+
+## License
+
+This project is open source. You are free to use, modify, and distribute it. (Consider adding a specific license, e.g., MIT, if you want to formalize it.)
