@@ -1,49 +1,48 @@
-# Legal Terminology Dictionary
+# Legal Terms Dictionary
 
-## Project Overview
-
-This project presents an interactive Python-based dictionary designed to provide quick and accurate access to legal terminology. Developed as part of the "Coding for Lawyers" course at the University of Bologna (Spring Semester 2024/25), its primary goal is to address the inherent complexity and multi-layered nature of legal language. The dictionary aims to minimize ambiguities and enhance the productivity of legal professionals, including lawyers, law students, translators, and researchers, by streamlining the process of understanding and using precise legal terms.
+This repository contains a Python-based interactive legal terms dictionary. It allows users to search for legal terms in Italian and view their English equivalents, definitions, and the relevant legal field. The dictionary can perform both exact and partial matches for terms.
 
 ## Features
 
-* **Bilingual Support:** Provides definitions for Italian legal terms in English.
-* **Flexible Search Options:** Supports both exact and partial (wildcard) matching for search queries.
-* **User-Friendly Command-Line Interface:** Easy to navigate for users with varying technical proficiencies.
-* **Comprehensive Data:** Based on a `legal_dictionary.csv` file, containing a wide range of legal terms, definitions, and associated legal fields.
+* **Interactive Search:** Command-line interface for easy term lookup.
+* **Dual Language Support:** Provides Italian-to-English translations and definitions.
+* **Flexible Search:** Supports exact matches and partial searches (using `*`).
+* **Structured Data:** Uses a CSV file (`legal_dictionary.csv`) to store legal terms.
+* **Error Handling:** Basic error handling for missing dictionary file.
 
-## Project Structure
+## Files in this Repository
 
-The repository contains the following key files:
+* `odev.py`: The main Python script that implements the dictionary's functionality. It handles data loading, cleaning, preprocessing, and the interactive search interface.
+* `legal_dictionary.csv`: The CSV file containing the legal terms, their English equivalents, definitions, and legal fields. This file serves as the database for the dictionary.
 
-* `odev.py`: The main Python script that implements the dictionary's functionality, including data loading, cleaning, preprocessing, and the interactive search interface.
-* `legal_dictionary.csv`: The dataset containing the legal terms, their English equivalents, definitions, and legal fields.
-* `README.md`: This document, providing an overview and instructions for the project.
+## How to Run the Application
 
-## How to Use (Installation & Usage)
+To run this legal terms dictionary on your local machine, follow these steps:
 
-To run the Legal Terminology Dictionary on your local machine, follow these steps:
+1.  **Prerequisites:**
+    * Python 3.x installed on your system. You can download it from [python.org](https://www.python.org/).
+    * `pandas` library. If you don't have it, install it using pip:
+        ```bash
+        pip install pandas
+        ```
 
-1.  **Clone the Repository (Optional, if you haven't already):**
-    If you haven't cloned it yet, you can download the project files by clicking "Code" and then "Download ZIP" on the GitHub page, or by using Git:
+2.  **Clone the Repository:**
+    If you haven't already, clone this repository to your local machine:
     ```bash
     git clone [https://github.com/fyate/legal-terms-dictionary.git](https://github.com/fyate/legal-terms-dictionary.git)
     cd legal-terms-dictionary
     ```
-2.  **Ensure Python is Installed:** Make sure you have Python (version 3.x recommended) installed on your system. You can download it from [python.org]
-3.  **Install Dependencies:** The project requires the `pandas` library. Install it using pip:
-    ```bash
-    pip install pandas
-    ```
-4.  **Run the Dictionary:** Execute the main Python script from your terminal:
+
+3.  **Run the Script:**
+    Navigate to the `legal-terms-dictionary` directory in your terminal or command prompt and execute the Python script:
     ```bash
     python odev.py
     ```
-    The program will then prompt you to enter terms to search for. Type `exit` to quit.
 
-## Contributing
+## How to Use the Dictionary
 
-Currently, this project is maintained by fyate. For any inquiries or suggestions, please open an issue in the repository.
+Once the application is running, you will see a welcome message and prompts to enter terms:
 
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). This means anyone can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, with attribution.
+* **Exact Match:** Enter the full Italian term you are looking for (e.g., `Legge`).
+* **Partial Match:** Enter the beginning of the term followed by an asterisk and a space (e.g., `Violenza *`).
+* **Exit:** Type `exit` to close the application.
