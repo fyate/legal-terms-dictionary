@@ -39,8 +39,12 @@ Once the application is running, you will see a welcome message and prompts to e
 * **Exact Match:** Enter the full Italian term you are looking for (e.g., `Legge`).
 * **Partial Match:** Enter the beginning of the term followed by an asterisk and a space (e.g., `Violenza *`).
 * **Exit:** Type `exit` to close the application.
-* 
+
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/fyate/legal-terms-dictionary/blob/main/LICENSE) file for details.
