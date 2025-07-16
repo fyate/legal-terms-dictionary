@@ -26,14 +26,7 @@ To run this legal terms dictionary on your local machine, follow these steps:
         pip install pandas
         ```
 
-2.  **Clone the Repository:**
-    If you haven't already, clone this repository to your local machine:
-    ```bash
-    git clone [https://github.com/fyate/legal-terms-dictionary.git](https://github.com/fyate/legal-terms-dictionary.git)
-    cd legal-terms-dictionary
-    ```
-
-3.  **Run the Script:**
+2.  **Run the Script:**
     Navigate to the `legal-terms-dictionary` directory in your terminal or command prompt and execute the Python script:
     ```bash
     python odev.py
