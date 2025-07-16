@@ -42,8 +42,7 @@ Once the application is running, you will see a welcome message and prompts to e
 
 ## Contributing
 
-Currently, contributions are not actively sought for this specific version. However, suggestions for improvements or bug reports are welcome via GitHub Issues.
 
 ## License
 
-This project is open source. You are free to use, modify, and distribute it. (Consider adding a specific license, e.g., MIT, if you want to formalize it.)
+This project is licensed under the MIT License.
