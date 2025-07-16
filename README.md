@@ -12,7 +12,7 @@ This repository contains a Python-based interactive legal terms dictionary. It a
 
 ## Files in this Repository
 
-* `odev.py`: The main Python script that implements the dictionary's functionality. It handles data loading, cleaning, preprocessing, and the interactive search interface.
+* `main.py`: The main Python script that implements the dictionary's functionality. It handles data loading, cleaning, preprocessing, and the interactive search interface.
 * `legal_dictionary.csv`: The CSV file containing the legal terms, their English equivalents, definitions, and legal fields. This file serves as the database for the dictionary.
 
 ## How to Run the Application
@@ -29,7 +29,7 @@ To run this legal terms dictionary on your local machine, follow these steps:
 2.  **Run the Script:**
     Navigate to the `legal-terms-dictionary` directory in your terminal or command prompt and execute the Python script:
     ```bash
-    python odev.py
+    python main.py
     ```
 
 ## How to Use the Dictionary
