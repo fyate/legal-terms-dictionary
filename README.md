@@ -24,6 +24,7 @@ To run this legal terms dictionary on your local machine, follow these steps:
     * `pandas` library. If you don't have it, install it using pip:
         ```bash
         pip install pandas
+        cd ...
         ```
 
 2.  **Run the Script:**
